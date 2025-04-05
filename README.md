@@ -46,10 +46,10 @@ sudo apt-get install nmap whatweb
 ## 🚦Usage
 
 ```bash
-python var2.py -u example.com
-python var2.py -l targets.txt -v
+python PortGrabber.py -u example.com
+python PortGrabber.py -l targets.txt -v
 python PortGrabber.py -u example.com -o result
-python var2.py -u example.com -p "80,443,8000-9000" -t 50 --timeout 3
+python PortGrabber.py -u example.com -p "80,443,8000-9000" -t 50 --timeout 3
 ```
 
 ## 🛠️Arguments
