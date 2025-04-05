@@ -1,21 +1,22 @@
-# PortGrabber
+# 🚀PortGrabber
 
-A comprehensive security scanning tool for network reconnaissance and vulnerability assessment.
+PortGrabber comprehensive security scanning tool for network reconnaissance and vulnerability assessment.Equipped with multi-threading and modular scanning options.
 
-## Features
+## 🔍Features
 
-- TCP and UDP port scanning with banner grabbing
-- SSL certificate analysis
-- CMS detection using whatweb
-- Service enumeration with nmap
-- Vulnerability matching against CVE database
-- Subdomain enumeration
-- Web vulnerability testing (XSS, SQL Injection, etc.)
-- Multi-threading for faster scanning
-- Detailed JSON reports
-- Progress tracking and logging
+🔓 TCP & UDP Port Scanning
+🎯 Banner Grabbing
+🔐 SSL Certificate Analysis
+🕵️ CMS Detection using WhatWeb
+📡 Service enumeration with nmap
+🛡️ CVE Vulnerability Matching
+🌐 Subdomain Enumeration
+🧪 Web Vulnerability Testing – Basic detection for XSS, SQLi, and other common attacks
+⚡ Multi-threading Support
+📄 Structured JSON Reports
+📈 Progress Tracking & Logging
 
-## Installation
+## ⚙️Installation
 
 ```bash
 # Clone the repository
@@ -30,7 +31,7 @@ pip install -r requirements.txt
 sudo apt-get install nmap whatweb
 ```
 
-## Requirements
+## 🧾Requirements
 
 - Python 3.7+
 - Required Python packages (see requirements.txt):
@@ -39,42 +40,19 @@ sudo apt-get install nmap whatweb
   - tqdm (for var2.py)
   - typing (for var2.py)
 - Optional tools:
-  - nmap
-  - whatweb
+  - nmap - Advanced network scanning
+  - whatweb - CMS and tech fingerprinting
 
-## Usage
-
-### Basic Scanner (new.py)
-
-```bash
-python new.py -u example.com
-python new.py -l targets.txt -v
-python new.py -u example.com --start-port 1 --end-port 1000 -t 50
-```
-
-### Advanced Scanner (var2.py) - Recommended
+## 🚦Usage
 
 ```bash
 python var2.py -u example.com
 python var2.py -l targets.txt -v
+python PortGrabber.py -u example.com -o result
 python var2.py -u example.com -p "80,443,8000-9000" -t 50 --timeout 3
 ```
 
-## Arguments
-
-### new.py
-
-```
--u, --url           Single target IP or domain
--l, --list          File with list of targets
--o, --output        Directory to store output (default: "results")
--t, --threads       Number of threads (default: 100)
---start-port        Start port for scanning range (default: 1)
---end-port          End port for scanning range (default: 1024)
--v, --verbose       Verbose output
-```
-
-### var2.py
+## 🛠️Arguments
 
 ```
 -u, --url           Single target IP or domain
@@ -86,7 +64,7 @@ python var2.py -u example.com -p "80,443,8000-9000" -t 50 --timeout 3
 --timeout           Connection timeout in seconds (default: 2)
 ```
 
-## Output
+## 📁Output
 
 Results are saved in JSON format in the specified output directory (default: "results/"). The output includes:
 
@@ -99,10 +77,10 @@ Results are saved in JSON format in the specified output directory (default: "re
 - Discovered subdomains
 - Web vulnerability findings
 
-## Disclaimer
+## ⚠️Disclaimer
 
-This tool is for educational purposes and authorized security testing only. Unauthorized scanning of networks may be illegal. Always obtain permission before scanning any systems you don't own.
+This tool is intended for educational purposes and authorized penetration testing only. Do not scan networks or systems you do not own or have explicit permission to test. Unauthorized use may be illegal and is strictly discouraged. Always obtain permission before scanning any systems you don't own.
 
-## License
+## 📜License
 
 [MIT License](LICENSE)
