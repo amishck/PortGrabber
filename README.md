@@ -21,7 +21,7 @@ PortGrabber comprehensive security scanning tool for network reconnaissance and 
 ```bash
 # Clone the repository
 git clone https://github.com/amishck/PortGrabber.git
-cd security-scanner
+cd PortGrabber
 
 # Install dependencies
 pip install -r requirements.txt
