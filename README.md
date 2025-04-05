@@ -36,9 +36,9 @@ sudo apt-get install nmap whatweb
 - Python 3.7+
 - Required Python packages (see requirements.txt):
   - requests
-  - colorama (for new.py)
-  - tqdm (for var2.py)
-  - typing (for var2.py)
+  - colorama
+  - tqdm
+  - typing
 - Optional tools:
   - nmap - Advanced network scanning
   - whatweb - CMS and tech fingerprinting
