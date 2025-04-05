@@ -20,7 +20,7 @@ PortGrabber comprehensive security scanning tool for network reconnaissance and 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/security-scanner.git
+git clone https://github.com/amishck/PortGrabber.git
 cd security-scanner
 
 # Install dependencies
