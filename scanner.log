@@ -1,0 +1,14 @@
+2025-04-05 17:57:18,679 - INFO - Starting scan with 100 threads on ports: 1-1024
+2025-04-05 17:57:18,679 - INFO - 
+Starting scan for: testphp.vulnweb.com
+2025-04-05 17:57:18,679 - INFO - Scanning 1024 ports on testphp.vulnweb.com
+2025-04-05 17:57:19,744 - INFO - TCP Port 80 is open on testphp.vulnweb.com
+2025-04-05 17:57:20,955 - INFO - TCP Port 25 is open on testphp.vulnweb.com
+2025-04-05 17:57:22,971 - INFO - TCP Port 143 is open on testphp.vulnweb.com
+2025-04-05 17:57:22,981 - INFO - TCP Port 110 is open on testphp.vulnweb.com
+2025-04-05 17:57:22,982 - INFO - TCP Port 119 is open on testphp.vulnweb.com
+2025-04-05 17:57:29,044 - INFO - TCP Port 465 is open on testphp.vulnweb.com
+2025-04-05 17:57:31,052 - INFO - TCP Port 563 is open on testphp.vulnweb.com
+2025-04-05 17:57:31,071 - INFO - TCP Port 587 is open on testphp.vulnweb.com
+2025-04-05 17:57:39,170 - INFO - TCP Port 993 is open on testphp.vulnweb.com
+2025-04-05 17:57:39,184 - INFO - TCP Port 995 is open on testphp.vulnweb.com
